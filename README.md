@@ -1,91 +1,50 @@
-# My Awesome React Native App
+# Welcome to your Expo app 👋
 
-![Project Logo](./images/logo.png)
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-This is a cutting-edge React Native project template, providing a robust starting point for building cross-platform mobile applications. With a focus on performance and user experience, this template sets you up for success in the world of mobile app development.
+## Get started
 
-![App Screenshot](./images/app-screenshot.png)
+1. Install dependencies
 
-## 🚀 Features
-
-- Cross-platform (iOS & Android) compatibility
-- Pre-configured with essential libraries
-- Clean and scalable project structure
-- Ready-to-use custom components
-- Integrated state management solution
-
-## 📋 Prerequisites
-
-Before you embark on your development journey, ensure you have the following:
-
-* Latest version of [Node.js and npm](https://nodejs.org/)
-* A Windows/Linux/Mac machine
-* [React Native CLI](https://reactnative.dev/docs/environment-setup)
-* Xcode (for iOS development on Mac)
-* Android Studio (for Android development)
-
-## 🛠 Installation
-
-Get up and running with these simple steps:
-
-1. Clone the repo
-   ```
-   git clone https://github.com/yourusername/my-awesome-react-native-app.git
-   ```
-2. Navigate to the project directory
-   ```
-   cd my-awesome-react-native-app
-   ```
-3. Install dependencies
-   ```
+   ```bash
    npm install
    ```
 
-## 🏃‍♂️ Usage
+2. Start the app
 
-Launch your app with these commands:
-
-1. Start the Metro bundler
-   ```
-   npx react-native start
-   ```
-2. Run the app on Android
-   ```
-   npx react-native run-android
-   ```
-   Or on iOS
-   ```
-   npx react-native run-ios
+   ```bash
+    npx expo start
    ```
 
-![App Demo GIF](./images/app-demo.gif)
+In the output, you'll find options to open the app in a
 
-## 🤝 Contributing
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-We welcome contributions! Here's how you can help:
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-1. Fork this repository
-2. Create a branch: `git checkout -b <branch_name>`
-3. Make your changes and commit them: `git commit -m '<commit_message>'`
-4. Push to the original branch: `git push origin <project_name>/<location>`
-5. Create a pull request
+## Get a fresh project
 
-Check out the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) for more details.
+When you're ready, run:
 
-## 📬 Contact
+```bash
+npm run reset-project
+```
 
-Questions or suggestions? Reach out to us:
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-* Email: `<your_email@example.com>`
-* Twitter: [@YourTwitterHandle](https://twitter.com/YourTwitterHandle)
-* Project Link: [https://github.com/yourusername/my-awesome-react-native-app](https://github.com/yourusername/my-awesome-react-native-app)
+## Learn more
 
-## 📄 License
+To learn more about developing your project with Expo, look at the following resources:
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
----
+## Join the community
 
-Made with ❤️ and React Native
+Join our community of developers creating universal apps.
 
-![React Native Logo](./images/react-native-logo.png)
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
